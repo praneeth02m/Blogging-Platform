@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-container {
+  width: 90%;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete {
+  align-self: flex-end;
+  cursor: pointer;
+}
+.link-style {
+  text-decoration: none;
+  color: #ffffff;
+}
+.blog-con {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.incon {
+  width: 90%;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blog-title {
+  font-size: 30px;
+}
+
+.author-para {
+  font-size: 20px;
+}
+.content-para {
+  font-size: 23px;
+  font-family: "Roboto";
+}
